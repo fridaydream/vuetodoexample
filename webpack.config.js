@@ -57,6 +57,7 @@ const config = {
 }
 
 if (isDev) {
+
     config.module.rules.push({
         test: /\.styl/,
         use: [
@@ -86,6 +87,7 @@ if (isDev) {
             new webpack.NoEmitOnErrorsPlugin()
         )
 } else {
+    config.mode='production'
     config.entry={
         app:path.join(__dirname,'src/index.js'),
         vendor:['vue']
