@@ -6,6 +6,7 @@ const webpackHtmlPlugin = require('html-webpack-plugin');
 const ExtractPlugin = require('extract-text-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const config = {
+    mode: process.env.NODE_ENV || 'production', //development production
     target: 'web',
     entry: path.join(__dirname, 'src/index.js'),
     output: {
