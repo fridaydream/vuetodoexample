@@ -9,7 +9,6 @@ branches:
   - master
 install:
   - npm install
-  - npm run build
 script:
   - echo "Skipping tests"
 deploy:
