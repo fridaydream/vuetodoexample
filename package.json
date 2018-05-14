@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "travis": "^0.1.1",
+    "travis-cli": "^1.0.9",
     "vue": "^2.5.16"
   },
   "devDependencies": {
