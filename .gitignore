@@ -2,3 +2,5 @@
 node_modules
 #System
 .DS_Store
+
+pack_lock.json
